@@ -9,7 +9,8 @@ use Railken\Lem\Contracts\EntityContract;
 
 class Courier extends Model implements EntityContract
 {
-    use SoftDeletes, ConfigurableModel;
+    use SoftDeletes;
+    use ConfigurableModel;
 
     /**
      * Create a new Eloquent model instance.
