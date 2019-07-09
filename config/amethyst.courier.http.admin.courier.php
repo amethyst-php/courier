@@ -2,7 +2,7 @@
 
 return [
     'enabled'    => true,
-    'controller' => Railken\Amethyst\Http\Controllers\Admin\CouriersController::class,
+    'controller' => Amethyst\Http\Controllers\Admin\CouriersController::class,
     'router'     => [
         'as'     => 'courier.',
         'prefix' => '/couriers',

@@ -1,10 +1,10 @@
 <?php
 
-namespace Railken\Amethyst\Tests\Managers;
+namespace Amethyst\Tests\Managers;
 
-use Railken\Amethyst\Fakers\CourierFaker;
-use Railken\Amethyst\Managers\CourierManager;
-use Railken\Amethyst\Tests\BaseTest;
+use Amethyst\Fakers\CourierFaker;
+use Amethyst\Managers\CourierManager;
+use Amethyst\Tests\BaseTest;
 use Railken\Lem\Support\Testing\TestableBaseTrait;
 
 class CourierTest extends BaseTest
