@@ -14,7 +14,7 @@ class CreateCouriersTable extends Migration
     {
         Schema::create(Config::get('amethyst.courier.data.courier.table'), function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name')->unique();
+            $table->string('name')->index();
             $table->text('description')->nullable();
             $table->boolean('enabled')->default(true);
             $table->timestamps();
