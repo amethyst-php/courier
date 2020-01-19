@@ -1,6 +1,6 @@
 # amethyst-courier
 
-[![Build Status](https://travis-ci.org/amethyst-php/courier.svg?branch=master)](https://travis-ci.org/amethyst-php/courier)
+[![Action Status](https://github.com/amethyst-php/courier/workflows/test/badge.svg)](https://github.com/amethyst-php/courier/actions)
 
 [Amethyst](https://github.com/amethyst-php/amethyst) package.
 
